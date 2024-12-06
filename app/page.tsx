@@ -1,3 +1,5 @@
+'use client'
+
 export default function HomePage() {
-  return <div>Home page</div>;
+  return <h2>Welcome to Tournament DB</h2>;
 }
