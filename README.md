@@ -18,7 +18,7 @@ Website
     -	After that, run `npm run dev` and the server should start at `localhost:3000`
 
 Scraper
-Scrapes the given Liquidpedia pages to retrieve list of active and inactive players in a given team. Provide a list of teams in the urls.txt
+Scrapes the given Website pages to retrieve list of active and inactive players in a given team. Provide a list of teams in the urls.txt
 The scraper returns a `team_players.sql` file with all the call procedures. Run the script file to import data into the database.
 The scraper output might have to be cleaned to run as it can produce duplicate call procedures for AddPlayer who might have already been added to other teams previously.
 -	Navigate to scraper folder in terminal
